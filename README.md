@@ -3,7 +3,7 @@
 #### This project serves as a demonstration of resolving network incidents with live traffic. It includes 3 incidents that occur in a simulated environment. The Pcap file is not included because the project deals with live malware. 
 
 ## Time Thieves
-
+<details>
 At least two users on the network have been wasting time on YouTube. Usually, IT wouldn't pay much mind to this behavior, but it seems these people have created their own web server on the corporate network. So far, Security knows the following about these time thieves:
 
 ●	They have set up an Active Directory network.
@@ -36,8 +36,10 @@ You must inspect your traffic capture to answer the following questions:
   	
 ![Trojan](Images/Trojan.png)
 
-## Vulnerable Windows Machines
+</details>
 
+## Vulnerable Windows Machines
+<details>
 The Security team received reports of an infected Windows host on the network. They know the following:
 
 ●	Machines in the network live in the range 172.16.4.0/24.
@@ -71,9 +73,11 @@ Inspect your traffic to answer the following questions:
 6.	As a bonus, retrieve the desktop background of the Windows host.
 
 ![desktop](Images/Desktop.png)
- 
-## Illegal Downloads
 
+</details>
+
+## Illegal Downloads
+<details>
 IT was informed that some users are torrenting on the network. The Security team does not forbid the use of torrents for legitimate purposes, such as downloading operating systems. However, they have a strict policy against copyright infringement.
 IT shared the following about the torrent activity:
 
@@ -99,3 +103,4 @@ Your task is to isolate torrent traffic and answer the following questions:
 
 ![download](Images/Download.png)
  
+</details>
